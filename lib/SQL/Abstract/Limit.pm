@@ -237,7 +237,7 @@ sub _get_args {
 
     my $order  = shift;
     my $rows   = shift;
-    my $offset = shift if ( $_[0] && $_[0] =~ /^\d+$/ );
+    my $offset = shift if ( defined $_[0] && $_[0] =~ /^\d+$/ );
     my $syntax = shift || $self->_default_limit_syntax;
 
     return $order, $rows, $offset, $syntax;

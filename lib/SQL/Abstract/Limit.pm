@@ -868,7 +868,8 @@ sub _GenericSubQ {
 
     # get specified sort order and swap it to get the expected output (I think?)
     my ( $asc_desc ) = $order_by =~ /\b$pk\s+(ASC|DESC)\s*/i;
-    $asc_desc = uc( $asc_desc ) || 'ASC';
+    $asc_desc = 'ASC' unless defined $asc_desc;
+    $asc_desc = uc( $asc_desc );
     $asc_desc = $asc_desc eq 'ASC' ? 'DESC' : 'ASC';
 
     $sql =~ s/FROM $table /FROM $table X /;

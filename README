@@ -4,17 +4,13 @@ Portability layer for LIMIT emulation.
 
 INSTALLATION
 
-To install this module, run the following commands:
+Install SQL::Abstract::Limit using your usual method for installing
+modules from CPAN. If you don't have one, have a look at:
 
-    perl Build.PL
-    ./Build
-    ./Build test
-    ./Build install
+    http://www.cpan.org/modules/INSTALL.html
 
 
 COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
 
 Copyright (C) 2004 David Baird
 

@@ -212,7 +212,7 @@ sub where
 
     my ( $sql, @bind );
 
-    if ( $rows )
+    if ( defined $rows )
     {
         ( $sql, @bind ) = $self->SUPER::where( $where );
         

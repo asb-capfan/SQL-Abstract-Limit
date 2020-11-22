@@ -823,7 +823,7 @@ This method relies on having a column with unique values as the first column in
 the C<SELECT> clause (i.e. the first column in the C<\@fields> parameter). The
 results will be sorted by that unique column, so any C<$order> parameter is
 ignored, unless it matches the unique column, in which case the direction of
-the sort is honoured.
+the sort is honored.
 
 =over 8
 

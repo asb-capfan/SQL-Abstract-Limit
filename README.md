@@ -2,6 +2,8 @@
 
 Portability layer for LIMIT emulation.
 
+[![Build Status](https://travis-ci.org/asb-capfan/SQL-Abstract-Limit.svg?branch=master)](https://travis-ci.org/asb-capfan/SQL-Abstract-Limit)
+
 
 # INSTALLATION
 

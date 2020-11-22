@@ -4,6 +4,15 @@ CHANGES
 
 ** indicates API changes
 
+0.142	2020-11-22
+	- module adopted by Alexander Becker
+	- set up GitHub repository. See this repository for detailed changes.
+	- fix RT #34847: Avoid double quoting of table name. Fix provided by @dekimsey / Daniel Kimsey
+	- fix RT #50795: SQL::Abstract properties were ignored for select() if no limit was given. Thanks to Gunnar Hansson
+	- fix RT #73444: Offset argument wasn't handled properly if the value was 0. Thanks to ALEXBYK
+	- fix RT #62671: Properly handle 0 values in condition.
+	- remove Build.PL, switch to EUMM
+
 0.141 22nd December 2008, 22:13
     - fixed pod syntax
 

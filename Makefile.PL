@@ -17,7 +17,7 @@ WriteMakefile
     'Test::Exception' => '0',
     'Test::More' => '0'
     },
-    'AUTHOR'      => 'David Baird, C<cpan@riverside-cms.co.uk>',
+    'AUTHOR'      => 'Alexander Becker, C<asb@cpan.org>',
     'LICENSE'     => 'perl_5',
     'INSTALLDIRS' => 'site',
     'PL_FILES' => {},

@@ -1123,19 +1123,18 @@ L<DBIx::RecordSet|DBIx::RecordSet>.
 
 =head1 BUGS
 
-Please report all bugs via the CPAN Request Tracker at
+Please report all bugs (patches welcome) via GitHub
+at Lhttps://github.com/asb-capfan/SQL-Abstract-Limit>
+or via the CPAN Request Tracker at
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=SQL-Abstract-Limit>.
 
-=head1 COPYRIGHT AND LICENSE
+=head1 AUTHOR, COPYRIGHT AND LICENSE
 
-Copyright 2004 by David Baird.
+Copyright 2004-2020 by David Baird.
+Currently maintained by Alexander Becker.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=head1 AUTHOR
-
-David Baird, C<cpan@riverside-cms.co.uk>
 
 =head1 HOW IS IT DONE ELSEWHERE
 

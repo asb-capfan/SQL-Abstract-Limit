@@ -4,6 +4,9 @@ CHANGES
 
 ** indicates API changes
 
+0.143   2021-03-28
+	- fix RT #134147: Failed test 'SQL::Abstract - no limit' / Thanks to Slaven Rezić and Thibault Duponchelle
+
 0.142	2020-11-22
 	- module adopted by Alexander Becker
 	- set up GitHub repository. See this repository for detailed changes.
